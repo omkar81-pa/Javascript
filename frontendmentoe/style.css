@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: WorkSans-bold;
+    src: url("./assets/fonts/static/WorkSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: WorkSans-Regular;
+    src: url("./assets/fonts/static/WorkSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: WorkSans-Semibold;
+    src: url("./assets/fonts/static/WorkSans-SemiBold.ttf");
+}
+
+body,
+html {
+    font-family: WorkSans-Regular;
+    height: 100%;
+    margin: 0;
+}
+
+h1{
+    margin: 0 10px;
+}
+
+p{ 
+    font-size: 16px ;
+    color: hsl(292, 16%, 49%);
+}
+
+.custom-font-size {
+    font-size: 18px; 
+}
+
+.bg-image {
+    background-image: url(./background-pattern-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 50%;
+    position: relative;
+
+}
+
+.custom-container {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 540px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    padding: 10px;
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
